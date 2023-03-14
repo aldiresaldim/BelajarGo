@@ -8,7 +8,7 @@ func main() {
 	names[1] = "Resaldi"
 	names[2] = "Maulana"
 
-	fmt.Println(names[0])
+	fmt.Println(len(names[0]))
 	fmt.Println(names[1])
 	fmt.Println(names[2])
 }
