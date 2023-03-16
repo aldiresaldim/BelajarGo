@@ -1,9 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
-	name := "Resaldi"
+	name := "aldi"
 
 	switch name {
 	case "Aldi":
@@ -19,5 +21,13 @@ func main() {
 	case false:
 		fmt.Println("Nama Sudah Benar")
 	}
-
+	length := len(name)
+	switch {
+	case length > 10:
+		fmt.Println("Nama Terlalu Panjang")
+	case length > 5:
+		fmt.Println("Nama Lumayan Panjang")
+	case length > 10:
+		fmt.Println("Nama Sudah Benar")
+	}
 }
